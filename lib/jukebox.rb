@@ -43,7 +43,7 @@ def help
    puts "Goodbye"
  end
 
- def run(songs)
+  def run(songs)
    loop do
      puts "Please enter a command:"
      command = gets.chomp
@@ -62,7 +62,7 @@ def help
  end
  
 def run(songs)
-   loop do
+  loop do
      puts "Please enter a command:"
      command = gets.chomp
      case command
